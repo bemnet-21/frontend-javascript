@@ -17,4 +17,10 @@ interface printTeacherFunction {
 
 const printTeacher: printTeacherFunction = (firstName: string, lastName: string): string => `${firstName[0]}. ${lastName}`
 
-console.log(printTeacher("John", "Doe"))
+
+// class StudentClass {
+//     firstName: string
+//     lastName: string
+
+//     constructor(firstName)
+// }
